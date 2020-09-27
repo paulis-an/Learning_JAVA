@@ -6,7 +6,7 @@ public class Car5 {
     int speed;
 
     int gaz() {
-        speed += 30;
+        speed += 40;
         return speed;
     }
 
@@ -17,6 +17,7 @@ public class Car5 {
     }
 
     void show() {
+
         System.out.println("auto: " + car + "; cvet: " + color + "; skorost: " + speed);
     }
 }
@@ -31,7 +32,7 @@ class car2 {
         a1.show();
         a1.gaz();
         a1.show();
-        a1.tormoz(90);
+        a1.tormoz(110);
         a1.show();
 
     }
