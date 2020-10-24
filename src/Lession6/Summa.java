@@ -58,7 +58,7 @@ public class Summa {
 
     }
 }
-class Test {
+class Test1 {
        public static void main(String[] args) {
            Employee employ = new Employee(1,"Kozlov");
            System.out.println(employ.surname);
