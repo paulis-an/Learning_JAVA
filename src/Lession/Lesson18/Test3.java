@@ -1,14 +1,15 @@
 package Lession.Lesson18;
 
 public class Test3 {
+
     public static void main(String[] args) {
-        int [] array = new int[3];
-        array[0]= 1;
-        array[1]=2;
-        array[2]= 3;
-        array[3]= 4;
+        StringBuilder sb1 = new StringBuilder("Hello");
+        StringBuffer sb2 = new StringBuffer("Good bay");
 
+        String s1 = new String(sb1);
+        String s2 = new String(sb2);
 
+        System.out.println(s1 + s2);
     }
 
 }
